@@ -45,5 +45,6 @@ body {
 @media screen and (min-width: 768px) {
     .gallery-container {
         grid-template-columns: repeat(4, 1fr); /* 데스크톱에서는 4열로 설정합니다. */
+        width: 100%; /* 데스크톱에서는 갤러리 컨테이너의 너비를 꽉 차게 설정합니다. */
     }
-}
+
