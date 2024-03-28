@@ -23,8 +23,6 @@ body {
 /* 갤러리 컨테이너 스타일 */
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 데스크톱에서는 4열로 설정합니다. */
-    justify-content: center;
     gap: 20px;
     width: 80%; /* 갤러리 컨테이너 너비를 조정합니다. */
     margin: auto; /* 가운데 정렬을 위해 margin을 auto로 설정합니다. */
@@ -44,10 +42,9 @@ body {
     margin: 10px 0; /* 상하 여백을 조정합니다. */
 }
 
-/* 모바일 화면에서의 스타일 */
-@media screen and (max-width: 768px) {
+/* 데스크톱 화면에서의 스타일 */
+@media screen and (min-width: 768px) {
     .gallery-container {
-        grid-template-columns: 1fr; /* 모바일에서는 1열로 설정합니다. */
-        width: 100%; /* 모바일에서 갤러리 컨테이너를 꽉 차게 설정합니다. */
+        grid-template-columns: repeat(4, 1fr); /* 데스크톱에서는 4열로 설정합니다. */
     }
 }
