@@ -1,6 +1,4 @@
-/* desktopsize.css */
 
-/* 갤러리 컨테이너 스타일 */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -10,7 +8,7 @@
     margin: auto;
 }
 
-/* 사진 카드 스타일 */
+
 .picture-card {
     background-color: #fff;
     border-radius: 10px;
@@ -24,7 +22,7 @@
     margin: 10px 0;
 }
 
-/* 이미지 스타일 */
+
 .picture-card img {
     width: 100%;
     height: auto;
