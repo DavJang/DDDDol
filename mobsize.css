@@ -2,8 +2,8 @@
 
 /* 이미지 스타일 */
 img {
-    width: 170px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     overflow: hidden; /* 이미지 영역을 넘어가는 부분을 숨깁니다. */
 }
@@ -36,7 +36,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     max-width: 200px; /* 최대 너비를 설정합니다. */
     height: 280px;
     margin: 10px 0; /* 상하 여백을 조정합니다. */
